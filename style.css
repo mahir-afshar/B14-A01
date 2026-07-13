@@ -1,7 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    font-family:"Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
+}
+
+img {
+    max-width: 100%;
 }
 
 .common-btn {
@@ -14,11 +18,13 @@
     border: none;
     cursor: pointer;
 }
+
 .container {
     max-width: 1200px;
-    margin:auto;
+    margin: auto;
 }
 
+/* nav bar style */
 nav {
     display: flex;
     justify-content: space-between;
@@ -37,3 +43,43 @@ ul a {
     text-decoration: none;
     color: #575757;
 }
+
+/* Hero section style */
+.hero-root {
+    background:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("./images/banner.jpg");
+    margin-top: 8px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-parent {
+    text-align: center;
+    margin: 20px auto;
+    color: #FFFFFF;
+}
+
+.hero-parent h1 {
+    margin-top: 72px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 64px;
+}
+
+.hero-parent p {
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 275px;
+    max-width: 650px;
+}
+.hero-parent button {
+    font-size: 40px !important;
+}
+
+.connect {
+    font-style: italic;
+}
+
+/*  */
