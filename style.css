@@ -45,7 +45,7 @@ nav ul {
     list-style: none;
 }
 
- nav ul a {
+nav ul a {
     text-decoration: none;
     color: #575757;
 }
@@ -63,6 +63,7 @@ nav ul {
     height: 700px;
     display: flex;
     justify-content: center;
+    border-radius: 20px;
 }
 
 .hero-parent {
@@ -150,6 +151,7 @@ nav ul {
     background: #0D1B2A;
     color: #FFFFFF;
 }
+
 .pricing-cards button {
     margin-top: 50px;
     width: 100%;
@@ -173,9 +175,89 @@ nav ul {
 }
 
 .price {
-    font-size: 60px;      
+    font-size: 60px;
 
 }
+
 hr {
     margin: 20px 0;
+}
+
+/* Schedule Section */
+
+.schedule {
+    margin: 100px auto;
+}
+
+.schedule-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.schedule-heading h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.schedule-heading p {
+    color: #666;
+}
+
+.schedule-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.schedule-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 18px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .08);
+}
+
+.schedule-card h2 {
+    color: #1D4ED8;
+    margin-bottom: 5px;
+}
+
+.date {
+    color: #666;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.schedule-item {
+    display: flex;
+    gap: 20px;
+    padding: 18px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.schedule-item:last-child {
+    border-bottom: none;
+}
+
+.time {
+    min-width: 80px;
+    font-weight: bold;
+    color: #1D4ED8;
+}
+
+.schedule-item h4 {
+    margin-bottom: 5px;
+}
+
+.schedule-item p {
+    color: #666;
+    font-size: 15px;
+}
+
+@media (max-width:992px) {
+
+    .schedule-grid {
+        grid-template-columns: 1fr;
+    }
+
 }
