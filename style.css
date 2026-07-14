@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
+    text-decoration-color: #0D1B2A;
 }
 
 img {
@@ -33,14 +34,18 @@ nav {
     align-items: center;
 }
 
-ul {
+nav img {
+    cursor: pointer;
+}
+
+nav ul {
     display: flex;
     justify-content: space-between;
     gap: 25px;
     list-style: none;
 }
 
-ul a {
+ nav ul a {
     text-decoration: none;
     color: #575757;
 }
@@ -103,7 +108,7 @@ ul a {
 }
 
 .speaker-card {
-    border: 2px #c0b9b9e5 solid;
+    border: 1px #c0b9b9e5 solid;
     border-radius: 20px;
     overflow: hidden;
     cursor: pointer;
@@ -115,4 +120,62 @@ ul a {
 
 .speaker-info h5 {
     color: #1D4ED8;
+}
+
+/* Pricing section */
+
+.pricing {
+    text-align: center;
+    margin: 80px auto;
+}
+
+.pricing h1 {
+    margin: 10px;
+}
+
+.pricing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.pricing-plan {
+    width: 340px;
+    border: 1px #c0b9b9e5 solid;
+    border-radius: 16px;
+    padding: 30px;
+}
+
+.highlight {
+    background: #0D1B2A;
+    color: #FFFFFF;
+}
+.pricing-cards button {
+    margin-top: 50px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.pricing-cards ul {
+    margin: 25px 0;
+}
+
+.price-txt {
+    color: #575757;
+}
+
+.pro {
+    color: #1D4ED8;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.price {
+    font-size: 60px;      
+
+}
+hr {
+    margin: 20px 0;
 }
