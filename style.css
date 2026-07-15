@@ -183,7 +183,7 @@ hr {
     margin: 20px 0;
 }
 
-/* Schedule Section */
+/* Schedule Section By Ai */
 
 .schedule {
     margin: 100px auto;
@@ -254,10 +254,37 @@ hr {
     font-size: 15px;
 }
 
-@media (max-width:992px) {
+/* footer section */
 
-    .schedule-grid {
-        grid-template-columns: 1fr;
-    }
+footer {
+    background-color: #0D1B2A;
+    padding: 10px 0;
+    margin-top: 10px;
 
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    color: #575757;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 25px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 25px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #575757;
+    font-size: 14px;
 }
